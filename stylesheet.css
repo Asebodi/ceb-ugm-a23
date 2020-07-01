@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: #2b546a;;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.jumlah {
+  font-weight:bold;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.start {
+  background-color:rgb(48, 200, 214);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  line-height: 48px;
+  padding: 0px 16px;
+  border-radius: 4px;
+}
+
+
+
+
+
+

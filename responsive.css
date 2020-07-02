@@ -57,3 +57,29 @@
 
 
 }
+
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
+@media all and (max-width: 670px) {
+    .btn {
+      width: 70%;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper keterangan {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }

@@ -53,15 +53,39 @@ header {
 
 /* Animasi */
 .header-right {
-  animation: rgb 5s linear 2s infinite alternate;
+  animation: rgb 6s linear 2s infinite alternate;
 }
+
 @keyframes rgb {
   0%   {background-color:rgba(255, 255, 255, 0.5);}
-  25%  {background-color:rgb(255, 8, 0);}
-  50%  {background-color:rgb(94, 255, 0);}
-  75%  {background-color:rgb(47, 0, 255); }
+  25%  {background-color:red;}
+  50%  {background-color:green;}
+  75%  {background-color:blue; }
   100% {background-color:rgba(255, 255, 255, 0.5); }
 }
+
+/* 
+<button id="goTop"><a href="#top" style="color: black">Top</a></button>
+
+#goTop {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+
+#goTop:hover {
+    background-color: #7dbbf1;
+} */
 
 #scrollbar:hover {
   margin-left: 10px;

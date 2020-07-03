@@ -1,5 +1,5 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
     /* Header */
 
     /* Main */
@@ -13,8 +13,71 @@
 
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    /* Header */
+
+    /* Main */
+
+    /* Secondary */
+    .secondary-wrapper h3{
+        font-size: 2rem;
+    }
+
+    .secondary-wrapper h4{
+        font-size: 1.6rem;
+    }
+    .secondary-item{
+        padding: 3rem 2rem;
+    }
+    .secondary-2 h3{
+        margin-bottom: 2.5rem;
+    }
+    .secondary-3-item{
+        align-items: normal;
+    }
+
+    /* Footer */
+
+    /* Animasi */
+
+
+}
+
+/* Large devices (desktops, 840px and down) */
+@media (max-width: 840px) {
+    /* Header */
+
+    /* Main */
+
+    /* Secondary */
+    .flex-container{
+        flex-direction: column;
+    }
+    .secondary-1{
+        flex-direction: column-reverse
+    }
+    .secondary-2{
+        padding-bottom: 4rem;
+    }
+    .secondary-2 img{
+        width: 70%;
+        text-align: center;
+    }
+    .secondary-2-inner:nth-child(2){
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    /* Footer */
+
+    /* Animasi */
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
     /* Header */
 
     /* Main */
@@ -28,32 +91,55 @@
 
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    /* Header */
 
-    /* Main */
+/* Footer */
+@media (max-width: 1200px) {
+    .footer-container {
+        flex-direction: column;
+    }
 
-    /* Secondary */
+    .left-footer {
+        text-align: center;
+    }
 
-    /* Footer */
+    .center-footer {
+        margin: auto;
+    }
 
-    /* Animasi */
+    .right-footer {
+        float: none;
+        padding: 30px 0 10px;
+    }
 
-
+    footer p {
+        text-align: center;
+    }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    /* Header */
+  
+/* Main */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
 
-    /* Main */
-
-    /* Secondary */
-
-    /* Footer */
-
-    /* Animasi */
-
-
+@media all and (max-width: 670px) {
+    .btn {
+      width: 70%;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper keterangan {
+      font-size: 14px;
+      line-height: 20px;
+    }
 }

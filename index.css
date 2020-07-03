@@ -1,4 +1,5 @@
 /* Silahkan isi CSS dibawah bagian komentar dari masing-masing komponen tugas */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* Header */
 header {
@@ -10,17 +11,17 @@ header {
   z-index: 10
 }
 
-.logo{
+.logo {
   width: 124px;
   margin-top: 20px;
   margin-left: 100px;
 }
 
-.header-right:hover{
+.header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.header-right a{
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -40,15 +41,204 @@ header {
 
 
 /* Main */
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: #2b546a;;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.jumlah {
+  font-weight:bold;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.start {
+  background-color:rgb(48, 200, 214);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  line-height: 48px;
+  padding: 0px 16px;
+  border-radius: 4px;
+}
 
 
 /* Secondary */
+.secondary-item{
+  padding: 5rem 4rem;
+}
 
+.secondary-wrapper{
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-wrapper h3{
+  color: #433a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+.secondary-wrapper h4{
+  color: #433a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+}
+
+.secondary-wrapper p{
+  color: #525252;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item{
+  flex: 1;
+}
+
+.secondary-1-item img, .secondary-2-item img{
+  width: 100%;
+  min-width: 180px;
+}
+
+.secondary-2-item img{
+  max-width: 300px;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.secondary-2{
+  border-radius: 25px;
+  background-color: #f7f7f7;
+  padding-bottom: 0;
+}
+
+.secondary-2 h3{
+  text-align: center;
+  margin: 0 0 4.5rem 0;
+}
+
+.secondary-2-inner{
+  margin: 0 2rem;
+}
+
+.secondary-2-inner:nth-child(3){
+  text-align: end;
+}
+
+.secondary-3{
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.secondary-3 a{
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #433a3a;
+  color: white;
+  text-align: center;
+  width: 60%;
+  border-radius: 15px;
+  transition: background-color 500ms ease-in-out;
+}
+
+.secondary-3 a:hover{
+  background-color: #312a2a;
+}
 
 
 /* Footer */
+footer {
+  background-color: #383e56;
+  width: 100%;
+  color: white;
+}
 
+footer p {
+  font-size: 12px;
+  color: #586069;
+  padding: 0 0 20px 10px;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.left-footer {
+  flex: 34%;
+  padding-left: 10px;
+}
+
+.center-footer {
+  flex: 33%;
+  text-align: center;
+}
+
+.center-footer li {
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+}
+
+.center-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-footer {
+  flex: 33%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.right-footer a {
+  color: white;
+  padding-left: 20px;
+}
 
 
 /* Animasi */
@@ -64,7 +254,7 @@ header {
   100% {background-color:rgba(255, 255, 255, 0.5); }
 }
 
-a:hover {
+.header-right a:hover {
   background: linear-gradient(90deg,rgb(255, 43, 43),rgb(62, 62, 144));
   -webkit-background-clip: text;
   background-clip: text;

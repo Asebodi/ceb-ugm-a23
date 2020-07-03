@@ -140,6 +140,10 @@ a {
   min-width: 180px;
 }
 
+.secondary-2-item img{
+  max-width: 300px;
+}
+
 .img-container{
   text-align: center;
 }

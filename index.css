@@ -11,17 +11,17 @@ header {
   z-index: 10
 }
 
-.logo{
+.logo {
   width: 124px;
   margin-top: 20px;
   margin-left: 100px;
 }
 
-.header-right:hover{
+.header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.header-right a{
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -187,7 +187,54 @@ a {
 
 
 /* Footer */
+footer {
+  background-color: #383e56;
+  width: 100%;
+  color: white;
+}
 
+footer p {
+  font-size: 12px;
+  color: #586069;
+  padding: 0 0 20px 10px;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.left-footer {
+  flex: 34%;
+  padding-left: 10px;
+}
+
+.center-footer {
+  flex: 33%;
+  text-align: center;
+}
+
+.center-footer li {
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+}
+
+.center-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-footer {
+  flex: 33%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.right-footer a {
+  color: white;
+  padding-left: 20px;
+}
 
 
 /* Animasi */

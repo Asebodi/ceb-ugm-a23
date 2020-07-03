@@ -58,6 +58,33 @@
 
 }
 
+
+/* Footer */
+@media (max-width: 1200px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .left-footer {
+        text-align: center;
+    }
+
+    .center-footer {
+        margin: auto;
+    }
+
+    .right-footer {
+        float: none;
+        padding: 30px 0 10px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+  
+/* Main */
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
     font-size: 32px;

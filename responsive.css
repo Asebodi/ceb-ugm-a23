@@ -1,13 +1,54 @@
-/* Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {
+/* Small devices (landscape phones, 620px and down) */
+@media (max-width: 620px) {
     /* Header */
 
     /* Main */
+    header{
+        padding-top: 15px;
+    }
+    .top-wrapper {
+        text-align: center;
+    }
 
+    .container{
+        padding:0px
+    }
+      
+    .start{
+        font-size: medium;
+        width: 100px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+      
+    .top-wrapper keterangan {
+        font-size: 14px;
+        line-height: 20px;
+    }
     /* Secondary */
-
+        
     /* Footer */
+    
+    .left-footer {
+        text-align: center;
+    }
 
+    .center-footer {
+        text-align: center;
+    }
+
+    .right-footer {
+        padding: 15px 0 10px;
+    }
+
+    .center-footer li {
+        list-style: none;
+        float: none;
+        margin: 10px;
+      }
     /* Animasi */
 
 
@@ -18,7 +59,7 @@
     /* Header */
 
     /* Main */
-
+    
     /* Secondary */
     .secondary-wrapper h3{
         font-size: 2rem;
@@ -37,8 +78,32 @@
         align-items: normal;
     }
 
-    /* Footer */
+    .secondary-3 a:hover{
+        padding: 1rem 1.5rem;
+        font-size: medium;
+    }
 
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .left-footer {
+        text-align: center;
+    }
+
+    .center-footer {
+        margin: auto;
+    }
+
+    .right-footer {
+        float: none;
+        padding: 30px 0 10px;
+    }
+
+    footer p {
+        text-align: center;
+    }
     /* Animasi */
 
 
@@ -49,6 +114,9 @@
     /* Header */
 
     /* Main */
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
 
     /* Secondary */
     .flex-container{
@@ -85,61 +153,8 @@
     /* Secondary */
 
     /* Footer */
-
+    
     /* Animasi */
 
 
-}
-
-
-/* Footer */
-@media (max-width: 1200px) {
-    .footer-container {
-        flex-direction: column;
-    }
-
-    .left-footer {
-        text-align: center;
-    }
-
-    .center-footer {
-        margin: auto;
-    }
-
-    .right-footer {
-        float: none;
-        padding: 30px 0 10px;
-    }
-
-    footer p {
-        text-align: center;
-    }
-}
-
-  
-/* Main */
-@media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-    font-size: 32px;
-  }
-}
-
-@media all and (max-width: 670px) {
-    .btn {
-      width: 70%;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper keterangan {
-      font-size: 14px;
-      line-height: 20px;
-    }
 }

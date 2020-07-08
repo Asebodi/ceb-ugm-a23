@@ -11,3 +11,6 @@ Instruksi lebih lanjut ada di Discord
 | Secondary + responsive | Adit Raharditya  |
 | Footer + responsive    | Raihan Evriliano |
 | Animasi + finishing    | Sami Kalammallah |
+
+## link
+- <https://asebodi.github.io/ceb-ugm-a23/>
